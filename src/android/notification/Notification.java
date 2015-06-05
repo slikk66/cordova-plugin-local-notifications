@@ -237,6 +237,7 @@ public class Notification {
             // Notification for Jellybean and above
             getNotMgr().notify(id, builder.build());
         }
+        unpersist ();
     }
 
     /**
